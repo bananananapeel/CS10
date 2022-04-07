@@ -1,35 +1,26 @@
 package Exercises;
-
+import java.util.*;
 public class Example 
 {
-	/*
 
-	Program: ${ClassDemo}.java          Date: ${April 6 2022}
+	public static void main(String[] args) 
+	{
+		Scanner input = new Scanner(System.in); 
 
-
-	Author: Anjali Sanjay
-	School: CHHS
-	Course: Computer Science 10
-	 
-
-	*/
-	
-	public static void main(String args[])
-    {
-       int grade= 2;
-       double price = 2.5;
-	   String fullName = "aaaaaaaaaa bbbbbbbb";
-	   
-	
-    System.out.print(price - grade);   
-	
-    }
+		System.out.println("Hello, What is your name?");
+		String fullName =  input.nextLine();
+		
+		System.out.println("How old are you?");
+		int age = input.nextInt();
+		
+		System.out.print("Your name is: "+fullName + " and your age is: "+ age);
+		
+	}
 
 }
 
 /* Screen Dump
 
-77 15.8aaaaaaaaaa bbbbbbbb
-0.5
+Your name is: Mr. Kitchen and your age is 66
 
  */
