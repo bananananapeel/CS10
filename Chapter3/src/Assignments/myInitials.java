@@ -4,7 +4,7 @@ public class myInitials
 {
 	/*
 
-	Program: ${ClassDemo}.java          Date: ${April 6 2022}
+	Program: ${myInitials}.java          Date: ${April 6 2022}
 
 
 	Author: Anjali Sanjay

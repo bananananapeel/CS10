@@ -4,7 +4,7 @@ public class FromMeToYou
 {
 	/*
 
-	Program: ${ClassDemo}.java          Date: ${April 6 2022}
+	Program: ${FromMeToYou}.java          Date: ${April 6 2022}
 
 
 	Author: Anjali Sanjay

@@ -4,7 +4,7 @@ public class BingoCard
 {
 	/*
 
-	Program: ${ClassDemo}.java          Date: ${April 6 2022}
+	Program: ${BingoCard}.java          Date: ${April 6 2022}
 
 
 	Author: Anjali Sanjay

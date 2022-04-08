@@ -6,7 +6,7 @@ public class PizzaCost
 {
 	/*
 
-	Program: ${ClassDemo}.java          Date: ${April 6 2022}
+	Program: ${PizzaCost}.java          Date: ${April 6 2022}
 
 
 	Author: Anjali Sanjay
