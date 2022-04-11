@@ -37,3 +37,19 @@ public class Assignment6
 	}
 
 }
+/*
+ Screen dump
+ 
+ What is Your First Name?
+anjali
+What is Your Last Name?
+sanjay
+What Grade are You in?
+10
+What School do You Go To?
+CHHS
+What is Your Favourite Hobby?
+baking
+Hello, your name is anjalisanjay, you are currently in grade 10 at CHHS. Your favourite hobby is baking.
+ 
+ */
