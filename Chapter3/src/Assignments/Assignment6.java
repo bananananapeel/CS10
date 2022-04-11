@@ -2,7 +2,17 @@ package Assignments;
 import java.util.*;
 public class Assignment6 
 {
+	/*
 
+	Program: ${Assignment6}.java          Date: ${April 11 2022}
+
+
+	Author: Anjali Sanjay
+	School: CHHS
+	Course: Computer Science 10
+	 
+
+	*/
 	public static void main(String[] args) 
 	{
 		Scanner input = new Scanner (System.in);
@@ -22,7 +32,7 @@ public class Assignment6
 		System.out.println("What is Your Favourite Hobby?");
 		String hobby = input.nextLine();
 		
-		System.out.print("Hello, your name is "+firstName +lastName + ", you are currently in grade "+grade +" at "+school +". Your favourite hobby is"+hobby +"." );
+		System.out.print("Hello, your name is "+firstName +lastName + ", you are currently in grade "+grade +" at "+school +". Your favourite hobby is "+hobby +"." );
 		
 	}
 
