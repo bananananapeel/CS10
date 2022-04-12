@@ -4,7 +4,17 @@ import java.util.Scanner;
 
 public class Assignment7 
 {
+	/*
 
+	Program: ${Assignment7}.java          Date: ${April 12 2022}
+
+
+	Author: Anjali Sanjay
+	School: CHHS
+	Course: Computer Science 10
+	 
+
+	*/
 	public static void main(String[] args) 
 	{
 		Scanner userinput = new Scanner (System.in);
