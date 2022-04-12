@@ -7,9 +7,9 @@ public class Assignment7
 
 	public static void main(String[] args) 
 	{
-		Scanner input = new Scanner (System.in);
+		Scanner userinput = new Scanner (System.in);
 		
-		System.out.println("Enter the chnage you have: ");
+		System.out.println("Enter the change you have: ");
 		
 		int change = userinput.nextInt();
 		
@@ -23,7 +23,7 @@ public class Assignment7
 		
 		System.out.println("Quarters: "+ quarters);
 		
-		System.out.println("Dimes"+ dimes);
+		System.out.println("Dimes: "+ dimes);
 		
 		System.out.println("Nickles: "+ nickles);
 
