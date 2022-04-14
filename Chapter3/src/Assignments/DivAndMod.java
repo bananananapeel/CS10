@@ -40,3 +40,15 @@ public class DivAndMod
 	}
 
 }
+/*
+ screen dump  
+ Enter an Integer: 
+52
+Enter a Second Integer: 
+2
+52/2=26
+52%2=0
+2/52=0
+2%52=2
+ 
+ */

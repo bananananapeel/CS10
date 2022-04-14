@@ -38,4 +38,12 @@ public class Assignment8
 	}
 
 }
+/*
+ screen dump
+ Enter a three digit number: 
+123
+The hundreds-place digit is: 1
+The tens-place digit is: 2
+The ones-place digit is: 3
 
+*/

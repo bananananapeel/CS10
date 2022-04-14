@@ -40,3 +40,12 @@ public class Assignment7
 	}
 
 }
+/*
+screen dump
+Enter the change you have: 
+555
+The change you provided is: 555
+Quarters: 5
+Dimes: 2
+Nickles: 1
+*/
