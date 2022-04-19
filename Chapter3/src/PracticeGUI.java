@@ -7,6 +7,7 @@ import javax.swing.JTextField;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.awt.Color;
 
 public class PracticeGUI {
 
@@ -61,7 +62,7 @@ public class PracticeGUI {
 		panel.add(LN);
 		
 		fnn = new JTextField();
-		fnn.setBounds(76, 52, 74, 20);
+		fnn.setBounds(86, 52, 74, 20);
 		panel.add(fnn);
 		fnn.setColumns(10);
 		
@@ -75,11 +76,12 @@ public class PracticeGUI {
 		panel.add(AG);
 		
 		ag = new JTextField();
-		ag.setBounds(46, 110, 86, 20);
+		ag.setBounds(86, 113, 86, 20);
 		panel.add(ag);
 		ag.setColumns(10);
 		
-		JLabel DIS = new JLabel("boop");
+		JLabel DIS = new JLabel("");
+		DIS.setBackground(Color.PINK);
 		DIS.setBounds(10, 156, 386, 67);
 		panel.add(DIS);
 		
@@ -89,14 +91,24 @@ public class PracticeGUI {
 			{
 				String FN = fnn.getText();
 				String LN = ln.getText();
+				String AG = ag.getText();
 				
-				DIS.setText("First Name: "+ FN + "Last Name: "+ LN);
+				DIS.setText("First Name: "+ FN + " Last Name: "+ LN
+						+ " and your age is: "+ AG);
 			}
 		});
 		sb.setBounds(212, 51, 89, 23);
 		panel.add(sb);
 		
 		JButton RS = new JButton("RESET");
+		RS.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) 
+			{
+				fnn.setText("");
+				ln.setText("");
+				ag.setText("");
+			}
+		});
 		RS.setBounds(201, 109, 89, 23);
 		panel.add(RS);
 		
