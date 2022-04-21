@@ -67,21 +67,39 @@ public class PrcaticeGUI2 {
 		En.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) 
 			{
-				String E2 = e2.getText();
-				int twoD = Integer.parseInt(E2);
+				String E2 = e2.getText();//record the two digits
 				
-				int firstD = twoD / 10;
+				int twoD = Integer.parseInt(E2);//get the integer part
 				
-				//int sum= 
+				int firstD = twoD / 10;//record first digit
+				int secondD = twoD % 10;//record second digit
 				
-				DIS.setText(""+firstD);
+				int sum = firstD + secondD;//record sum 
 				
+				int prdc = firstD + secondD; //record product
+				
+				int check = sum + prdc;
+				if(check == twoD)
+				{
+					DIS.setText(twoD + " is a special two digit number");
+				}
+				else
+				{
+				DIS.setText(twoD+" is not a special two digit number"); //display special #
+				}
 			}
 		});
 		En.setBounds(247, 35, 89, 23);
 		panel.add(En);
 		
 		JButton Cl = new JButton("Clear");
+		Cl.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) 
+			{
+				e2.setText("");
+				DIS.setText("");
+			}
+		});
 		Cl.setBounds(247, 85, 89, 23);
 		panel.add(Cl);
 	}
