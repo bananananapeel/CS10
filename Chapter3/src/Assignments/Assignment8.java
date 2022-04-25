@@ -18,21 +18,21 @@ public class Assignment8
 	public static void main(String[] args) 
 	{
 		Scanner input = new Scanner (System.in);
-		System.out.println("Enter a three digit number: ");
+		System.out.println("Enter a three digit number: "); //display question
 		
-		int digits = input.nextInt(); 
+		int digits = input.nextInt(); //user input numbers
 		
-		int firstD = digits / 100;
+		int firstD = digits / 100; //first digit
 		
-		int secondD = (digits % 100) /10;
+		int secondD = (digits % 100) /10; //second digit
 		
-		int thirdD = ((digits % 100) %10);
+		int thirdD = ((digits % 100) %10); //third digit
 		
-		System.out.println("The hundreds-place digit is: "+ firstD);
+		System.out.println("The hundreds-place digit is: "+ firstD); //display digit
 		
-		System.out.println("The tens-place digit is: "+ secondD);
+		System.out.println("The tens-place digit is: "+ secondD); //display digit
 		
-		System.out.println("The ones-place digit is: "+ thirdD);
+		System.out.println("The ones-place digit is: "+ thirdD); //display digit
 		
 
 	}

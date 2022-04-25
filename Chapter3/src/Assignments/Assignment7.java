@@ -19,23 +19,23 @@ public class Assignment7
 	{
 		Scanner userinput = new Scanner (System.in);
 		
-		System.out.println("Enter the change you have: ");
+		System.out.println("Enter the change you have: "); //asks how much change user has
 		
 		int change = userinput.nextInt();
 		
-		int quarters = change % 25;
+		int quarters = change % 25; //calculate quarters in change
 		
-		int dimes = ((change / 25)/10); 
+		int dimes = ((change / 25)/10);  //calculate dimes
 		
-		int nickles = ((change % 25)%10)/5;
+		int nickles = ((change % 25)%10)/5; //calculate nickels
 		
-		System.out.println("The change you provided is: "+ change);
+		System.out.println("The change you provided is: "+ change); //displays change
 		
-		System.out.println("Quarters: "+ quarters);
+		System.out.println("Quarters: "+ quarters); //displays change
 		
-		System.out.println("Dimes: "+ dimes);
+		System.out.println("Dimes: "+ dimes); //displays change
 		
-		System.out.println("Nickles: "+ nickles);
+		System.out.println("Nickles: "+ nickles); //displays change
 
 	}
 

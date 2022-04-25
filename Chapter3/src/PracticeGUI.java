@@ -8,6 +8,8 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.Color;
+import javax.swing.JComboBox;
+import javax.swing.DefaultComboBoxModel;
 
 public class PracticeGUI {
 
@@ -15,7 +17,6 @@ public class PracticeGUI {
 	private final JPanel panel = new JPanel();
 	private JTextField fnn;
 	private JTextField ln;
-	private JTextField ag;
 
 	/**
 	 * Launch the application.
@@ -62,7 +63,7 @@ public class PracticeGUI {
 		panel.add(LN);
 		
 		fnn = new JTextField();
-		fnn.setBounds(86, 52, 74, 20);
+		fnn.setBounds(86, 52, 86, 20);
 		panel.add(fnn);
 		fnn.setColumns(10);
 		
@@ -75,15 +76,15 @@ public class PracticeGUI {
 		AG.setBounds(10, 113, 46, 14);
 		panel.add(AG);
 		
-		ag = new JTextField();
-		ag.setBounds(86, 113, 86, 20);
-		panel.add(ag);
-		ag.setColumns(10);
-		
 		JLabel DIS = new JLabel("");
 		DIS.setBackground(Color.PINK);
-		DIS.setBounds(10, 156, 386, 67);
+		DIS.setBounds(10, 183, 386, 67);
 		panel.add(DIS);
+		
+		JComboBox g2 = new JComboBox();
+		g2.setModel(new DefaultComboBoxModel(new String[] {"10", "11", "12"}));
+		g2.setBounds(86, 120, 80, 22);
+		panel.add(g2);
 		
 		JButton sb = new JButton("Submit");
 		sb.addActionListener(new ActionListener() {
@@ -91,10 +92,23 @@ public class PracticeGUI {
 			{
 				String FN = fnn.getText();
 				String LN = ln.getText();
-				String AG = ag.getText();
+				int grade;
+				
+				if(g2.getSelectedItem().equals("10"))
+				{
+					grade = 10;
+				}
+				else if(g2.getSelectedItem().equals("11"))
+				{
+					grade = 11;
+				}
+				else
+				{
+					grade = 12;
+				}
 				
 				DIS.setText("First Name: "+ FN + " Last Name: "+ LN
-						+ " and your age is: "+ AG);
+						+ " and your Grade is: "+ grade);
 			}
 		});
 		sb.setBounds(212, 51, 89, 23);
@@ -106,11 +120,15 @@ public class PracticeGUI {
 			{
 				fnn.setText("");
 				ln.setText("");
-				ag.setText("");
+				
 			}
 		});
 		RS.setBounds(201, 109, 89, 23);
 		panel.add(RS);
+		
+		
+		
+		
 		
 		
 	}
