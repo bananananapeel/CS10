@@ -1,30 +1,34 @@
-Package Exercises;
+/*
+Program: javaVariables.java          Date: April 22th 
+
+
+Author: Anjali Sanjay 
+School: CHHS
+Course: Computer Science 10
+*/
+package Exercises;
 
 public class PracticeAssign2
 {
-	/*
-	Program:PracticeAssign2.java          Date: April 22th 
-
-
-	Author: Anjali Sanjay 
-	School: CHHS
-	Course: Computer Science 10
+	public static void main(String[] args)
+{
+	String carName = "Volvo"; 
+	int maxSpeed = 120; 
+	System.out.println(carName+" "+maxSpeed);
+	int x = 5; 
+	int y = 10; 
+	System.out.println(x+y);
+	int z = x+y; 
+	System.out.println(z);
+	int q = 5, w = 6, e = 50; 
+	System.out.println(q+w+e);
 	
-
-	*/
-	public static void main(String[] args) 
-	{
-
-//This is a single-line comment
-/*
- This is a multi-line comment 
-*/
-
-		System.out.println ("Hello World");
-
-	}
+}
 
 }
 /* Screen Dump
-Hello World
- */
+Volvo 120
+15
+15
+61
+*/

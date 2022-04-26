@@ -18,12 +18,12 @@ public class PizzaCost
 	public static void main(String[] args) 
 	{
 	    Scanner myObj = new Scanner(System.in);  
-	    System.out.println("Enter the Diameter of the Pizza in Whole Inches");
-	    int size = myObj.nextInt();
+	    System.out.println("Enter the Diameter of the Pizza in Whole Inches");//displays instruction
+	    int size = myObj.nextInt();//user inputs number
 	    		
-	    double cost = (size * size * 0.05) + 0.75 + 1.00;
+	    double cost = (size * size * 0.05) + 0.75 + 1.00;//math to get cost
 	    
-	    System.out.println("It costs $ " + cost); 
+	    System.out.println("It costs $ " + cost); //outputs cost
 	}
 
 }

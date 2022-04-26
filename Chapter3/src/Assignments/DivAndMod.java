@@ -19,22 +19,22 @@ public class DivAndMod
 	{
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Enter an Integer: ");
-		int x = input.nextInt();
+		System.out.println("Enter an Integer: ");//asks questions
+		int x = input.nextInt();//user inputs number
 		
-		System.out.println("Enter a Second Integer: ");
-		int y = input.nextInt();
+		System.out.println("Enter a Second Integer: ");//displays question
+		int y = input.nextInt();//user inputs number
 		
-		int div = x / y;
-		int r = x % y;
-		int div2 = y / x;
-		int r2 = y % x;
+		int div = x / y;//division of number
+		int r = x % y;//modulus of number
+		int div2 = y / x;//division of number
+		int r2 = y % x;//modulus of number
 		
 		System.out.println(""
 				+ x +"/"+ y +"="+ div +"\r\n"
 				+ x +"%"+ y +"="+ r +"\r\n"
 				+ y +"/"+ x +"="+ div2 +"\r\n"
-				+ y +"%"+ x +"="+ r2 +"\r\n");
+				+ y +"%"+ x +"="+ r2 +"\r\n");//displays solved questions
 		
 
 	}

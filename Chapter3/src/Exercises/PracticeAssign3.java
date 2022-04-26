@@ -1,27 +1,28 @@
-package Exercises;
-
-public class PracticeAssign3
-{
-	/*
-	Program: PracticeAssign3.java          Date: April 22th 
+/*
+	Program: DataTypes.java          Date: April 22th 
 
 
 	Author: Anjali Sanjay 
 	School: CHHS
 	Course: Computer Science 10
 	*/
+package Exercises;
+
+import java.sql.Types;
+
+public class PracticeAssign3
+{
+	
 	public static void main(String[] args) 
 	{
-		String greeting = "Hello"; 
-		String txt = "Hello"; 
-		System.out.println(txt.length());
-		System.out.println(txt.toUpperCase());
-		String firstName = "John";
-		String lastName = "Doe"; 
-		System.out.println(firstName+lastName);
-		System.out.println(firstName.concat(lastName));
-		String txt2 = "Hello Everybody"; 
-		System.out.println(txt2.indexOf("e"));
+		int myNum = 9;
+		float myFloatNum = 8.99f;
+		char myLetter = 'A';
+		boolean myBool = false;
+		String myText = "Hello";
+		
+		double MyDouble = 9.78d;
+		int myInt = (int) myDouble; 
 
 	}
 
