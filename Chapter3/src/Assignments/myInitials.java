@@ -1,8 +1,4 @@
-package Assignments;
-
-public class myInitials 
-{
-	/*
+/*
 
 	Program: ${myInitials}.java          Date: ${April 6 2022}
 
@@ -13,6 +9,11 @@ public class myInitials
 	 
 
 	*/
+package Assignments;
+
+public class myInitials 
+{
+	
 	public static void main(String[] args) 
 	{
 		System.out.println( ""

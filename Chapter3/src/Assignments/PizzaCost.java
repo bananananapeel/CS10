@@ -1,10 +1,4 @@
-package Assignments;
-
-import java.util.Scanner;
-
-public class PizzaCost 
-{
-	/*
+/*
 
 	Program: ${PizzaCost}.java          Date: ${April 6 2022}
 
@@ -15,6 +9,13 @@ public class PizzaCost
 	 
 
 	*/
+package Assignments;
+
+import java.util.Scanner;
+
+public class PizzaCost 
+{
+
 	public static void main(String[] args) 
 	{
 	    Scanner myObj = new Scanner(System.in);  

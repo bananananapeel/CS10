@@ -1,8 +1,4 @@
-package Assignments;
-
-public class FromMeToYou 
-{
-	/*
+/*
 
 	Program: ${FromMeToYou}.java          Date: ${April 6 2022}
 
@@ -13,6 +9,11 @@ public class FromMeToYou
 	 
 
 	*/
+package Assignments;
+
+public class FromMeToYou 
+{
+	
 	public static void main(String args[])
 	{
 		System.out.println("From: Mr. Wilson\r\n"

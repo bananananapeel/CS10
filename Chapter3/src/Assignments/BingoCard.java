@@ -1,7 +1,3 @@
-package Assignments;
-
-public class BingoCard 
-{
 	/*
 
 	Program: ${BingoCard}.java          Date: ${April 6 2022}
@@ -13,6 +9,11 @@ public class BingoCard
 	 
 
 	*/
+package Assignments;
+
+public class BingoCard 
+{
+
 	public static void main(String args[])
 	{
 		System.out.println(""

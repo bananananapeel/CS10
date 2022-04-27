@@ -1,9 +1,3 @@
-package Assignments;
-
-import java.util.Scanner;
-
-public class DivAndMod 
-{
 	/*
 
 	Program: ${DivAndMod}.java          Date: ${April 13 2022}
@@ -15,6 +9,13 @@ public class DivAndMod
 	 
 
 	*/
+package Assignments;
+
+import java.util.Scanner;
+
+public class DivAndMod 
+{
+
 	public static void main(String[] args) 
 	{
 		Scanner input = new Scanner(System.in);
