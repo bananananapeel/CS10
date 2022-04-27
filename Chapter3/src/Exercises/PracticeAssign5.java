@@ -16,20 +16,23 @@ public class PracticeAssign5
 		String greeting = "Hello";
 		String txt = "Hello";
 		System.out.println(txt.length());
-		String txt = "Hello";
-		System.out.println(txt.toUpperCase());
+		String hello = "Hello";
+		System.out.println(hello.toUpperCase());
 		String firstName = "John ";
 		String lastName = "Doe";
 		System.out.println(firstName+lastName);
-		String firstName = "John ";
-		String lastName = "Doe";
-		System.out.println(firstName.concat(lastName));
-		String txt = "Hello Everybody";
-		System.out.println(txt.indexOf("e"));
+		String firstNamee = "John ";
+		String lastNamee = "Doe";
+		System.out.println(firstNamee.concat(lastNamee));
+		String greetings = "Hello Everybody";
+		System.out.println(greetings.indexOf("e"));
 	}
 
 }
 /* Screen Dump
-50
-2
+5
+HELLO
+John Doe
+John Doe
+1
  */

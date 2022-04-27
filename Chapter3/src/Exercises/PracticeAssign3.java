@@ -5,7 +5,7 @@
 	Author: Anjali Sanjay 
 	School: CHHS
 	Course: Computer Science 10
-	*/
+*/
 package Exercises;
 
 import java.sql.Types;
@@ -21,16 +21,12 @@ public class PracticeAssign3
 		boolean myBool = false;
 		String myText = "Hello";
 		
-		double MyDouble = 9.78d;
-		int myInt = (int) myDouble; 
+		double myDouble = 9.78d;
+		int myInt = (int)myDouble; 
 
 	}
 
 }
 /* Screen Dump
-5
-HELLO
-JohnDoe
-JohnDoe
-1
+
  */

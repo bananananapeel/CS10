@@ -28,11 +28,4 @@ public class Exersices
 /* Screen Dump
 Hello World
  */
-/*
-Program: javaVariables.java          Date: April 22th 
 
-
-Author: Anjali Sanjay 
-School: CHHS
-Course: Computer Science 10
-*/
