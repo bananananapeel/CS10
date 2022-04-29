@@ -8,10 +8,13 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
+
 public class PrcaticeGUI2 {
 
 	private JFrame frame;
 	private JTextField e2;
+	
+
 
 	/**
 	 * Launch the application.
@@ -41,12 +44,12 @@ public class PrcaticeGUI2 {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 450, 300);
+		frame.setBounds(100, 100, 464, 313);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
 		JPanel panel = new JPanel();
-		panel.setBounds(0, 0, 434, 261);
+		panel.setBounds(0, 0, 455, 281);
 		frame.getContentPane().add(panel);
 		panel.setLayout(null);
 		
@@ -60,7 +63,7 @@ public class PrcaticeGUI2 {
 		e2.setColumns(10);
 		
 		JLabel DIS = new JLabel("");
-		DIS.setBounds(29, 147, 334, 70);
+		DIS.setBounds(38, 204, 353, 127);
 		panel.add(DIS);
 		
 		JButton En = new JButton("Enter ");
@@ -102,5 +105,7 @@ public class PrcaticeGUI2 {
 		});
 		Cl.setBounds(247, 85, 89, 23);
 		panel.add(Cl);
+		
+		
 	}
 }

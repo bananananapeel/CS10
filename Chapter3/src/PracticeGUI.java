@@ -10,6 +10,7 @@ import java.awt.event.ActionEvent;
 import java.awt.Color;
 import javax.swing.JComboBox;
 import javax.swing.DefaultComboBoxModel;
+import javax.swing.*;
 
 public class PracticeGUI {
 
@@ -17,7 +18,9 @@ public class PracticeGUI {
 	private final JPanel panel = new JPanel();
 	private JTextField fnn;
 	private JTextField ln;
-
+	
+	ImageIcon img1 = new ImageIcon("../Chapter3/src/download.png");
+	
 	/**
 	 * Launch the application.
 	 */
@@ -47,10 +50,10 @@ public class PracticeGUI {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 450, 300);
+		frame.setBounds(100, 100, 611, 427);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
-		panel.setBounds(0, 0, 434, 261);
+		panel.setBounds(0, 0, 595, 388);
 		frame.getContentPane().add(panel);
 		panel.setLayout(null);
 		
@@ -78,13 +81,17 @@ public class PracticeGUI {
 		
 		JLabel DIS = new JLabel("");
 		DIS.setBackground(Color.PINK);
-		DIS.setBounds(10, 183, 386, 67);
+		DIS.setBounds(394, 256, 155, 97);
 		panel.add(DIS);
 		
 		JComboBox g2 = new JComboBox();
 		g2.setModel(new DefaultComboBoxModel(new String[] {"10", "11", "12"}));
 		g2.setBounds(86, 120, 80, 22);
 		panel.add(g2);
+		
+		JLabel pic = new JLabel("");
+		pic.setBounds(38, 192, 289, 136);
+		panel.add(pic);
 		
 		JButton sb = new JButton("Submit");
 		sb.addActionListener(new ActionListener() {
@@ -97,6 +104,7 @@ public class PracticeGUI {
 				if(g2.getSelectedItem().equals("10"))
 				{
 					grade = 10;
+					pic.setIcon(img1);;
 				}
 				else if(g2.getSelectedItem().equals("11"))
 				{
@@ -125,6 +133,8 @@ public class PracticeGUI {
 		});
 		RS.setBounds(201, 109, 89, 23);
 		panel.add(RS);
+		
+
 		
 		
 		
