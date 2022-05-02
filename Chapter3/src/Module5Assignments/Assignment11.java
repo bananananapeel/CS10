@@ -24,20 +24,23 @@ public class Assignment11
 		
 		int numbers = input.nextInt();
 		
-		int firstD = numbers / 10;
+		int firstD = numbers / 100;
 		
-		int secondD = numbers % 10;
+		int secondD = (numbers % 100)/10;
 		
+		int thirdD = (numbers % 100)%10;
 		
+		//System.out.println("First: "+ firstD+" Second: "+ secondD+" Third:  "+ thirdD);
 		
 		int max = 0;
 		int min = 0;
 		
+		/*
 		if(firstD > secondD)//85
 		{
 			max = firstD;
 			min = secondD;
-			
+			//579
 			
 			
 		}
@@ -47,11 +50,16 @@ public class Assignment11
 			min = firstD;
 			
 		
-		}	
-		System.out.println("Maximum: "+ max +" Minmum:"+ min );
+		}
+		*/	
+		System.out.println("Maximum: "+ max +" Minmum: "+ min );
 		
-		//579
-		//18:43 in bongo video
+		if(secondD > firstD && thirdD > secondD && firstD < thirdD)
+		{
+			max = thirdD;
+			min = firstD;
+		}
+		
 	}
 
 }
