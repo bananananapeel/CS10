@@ -63,7 +63,7 @@ public class PrcaticeGUI2 {
 		e2.setColumns(10);
 		
 		JLabel DIS = new JLabel("");
-		DIS.setBounds(38, 204, 353, 127);
+		DIS.setBounds(53, 165, 317, 53);
 		panel.add(DIS);
 		
 		JButton En = new JButton("Enter ");

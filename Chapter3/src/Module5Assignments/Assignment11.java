@@ -30,28 +30,44 @@ public class Assignment11
 		
 		int thirdD = (numbers % 100)%10;
 		
-		//System.out.println("First: "+ firstD+" Second: "+ secondD+" Third:  "+ thirdD);
+		System.out.println("First: "+ firstD+" Second: "+ secondD+" Third:  "+ thirdD);
 		
 		int max = 0;
 		int min = 0;
 		
-		/*
-		if(firstD > secondD)//85
+		
+		if(secondD>firstD && thirdD>secondD)//85
 		{
-			max = firstD;
+			max = thirdD;
 			min = secondD;
 			//579
-			
-			
 		}
-		else//58
+		/*
+		else if(firstD>secondD && thirdD>secondD)//58
 		{
 			max = secondD;
 			min = firstD;
 			
 		
 		}
-		*/	
+		else
+		{
+			min = thirdD;
+		}	
+		if(secondD>firstD && secondD<thirdD)
+		{
+			max = secondD;
+		}
+		else if(thirdD>firstD && thirdD>secondD)
+		{
+			max = thirdD;
+		}	
+		else 
+		{
+			max = firstD; 
+		}
+		*/
+			
 		System.out.println("Maximum: "+ max +" Minmum: "+ min );
 		
 		if(secondD > firstD && thirdD > secondD && firstD < thirdD)

@@ -109,6 +109,8 @@ public class PracticeGUI {
 				else if(g2.getSelectedItem().equals("11"))
 				{
 					grade = 11;
+					Version2 k = new Version2();
+					
 				}
 				else
 				{
@@ -131,7 +133,7 @@ public class PracticeGUI {
 				
 			}
 		});
-		RS.setBounds(201, 109, 89, 23);
+		RS.setBounds(212, 109, 89, 23);
 		panel.add(RS);
 		
 
