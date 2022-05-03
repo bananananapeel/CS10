@@ -42,13 +42,10 @@ public class Assignment11
 			min = secondD;
 			//579
 		}
-		/*
 		else if(firstD>secondD && thirdD>secondD)//58
 		{
 			max = secondD;
 			min = firstD;
-			
-		
 		}
 		else
 		{
