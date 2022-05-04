@@ -11,6 +11,7 @@
 */
 package Module5Assignments;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Assignment11 
@@ -19,6 +20,8 @@ public class Assignment11
 	public static void main(String[] args) 
 	{
 		Scanner input = new Scanner(System.in);
+		
+		DecimalFormat df = new DecimalFormat("0.00");
 		
 		System.out.println("Enter any Three Digits: ");
 		
@@ -36,47 +39,60 @@ public class Assignment11
 		int min = 0;
 		
 		
-		if(secondD>firstD && thirdD>secondD)//85
+		if(secondD>firstD && thirdD>secondD && firstD<thirdD)//579
 		{
 			max = thirdD;
 			min = secondD;
-			//579
 		}
-		else if(firstD>secondD && thirdD>secondD)//58
-		{
-			max = secondD;
-			min = firstD;
-		}
-		else
-		{
-			min = thirdD;
-		}	
-		if(secondD>firstD && secondD<thirdD)
-		{
-			max = secondD;
-		}
-		else if(thirdD>firstD && thirdD>secondD)
-		{
-			max = thirdD;
-		}	
-		else 
-		{
-			max = firstD; 
-		}
-		*/
-			
-		System.out.println("Maximum: "+ max +" Minmum: "+ min );
 		
-		if(secondD > firstD && thirdD > secondD && firstD < thirdD)
+		else if(firstD>secondD && thirdD<secondD && firstD>thirdD)//931
+		{
+			max = firstD;
+			min = thirdD;
+		}
+		else if(firstD<secondD && secondD>thirdD && firstD<thirdD)//486
+		{
+			max = secondD;
+			min = firstD;
+		}	
+		else if(secondD>firstD && secondD>thirdD && firstD>thirdD)//452
+		{
+			max = secondD;
+			min = thirdD;
+		}
+		else if(thirdD>firstD && thirdD>secondD && secondD<thirdD)//536
 		{
 			max = thirdD;
-			min = firstD;
-		}
+			min = secondD; 
+			
+		}	
+		int sum = firstD + secondD + thirdD;
+		int product = firstD * secondD * thirdD;
+		double average = ((double)(firstD + secondD + thirdD) / (double)3);
+		
+			
+		System.out.println("The Largest of the Three Digits is: "+ max);
+		System.out.println("The Smallest of the Three Digits is: "+ min);
+		System.out.println("The Sum of the Three Digits is: "+ sum);
+		System.out.println("The Product of the Three Digits is: "+ product);
+		System.out.println("The Average of the Three Digits is: "+ df.format(average));
+		
+		
 		
 	}
 
 }
 /*
 screen dump
+
+Enter any Three Digits: 
+579
+First: 5 Second: 7 Third:  9
+The Largest of the Three Digits is: 9
+The Smallest of the Three Digits is: 7
+The Sum of the Three Digits is: 21
+The Product of the Three Digits is: 315
+The Average of the Three Digits is: 7.00
+
 
 */
