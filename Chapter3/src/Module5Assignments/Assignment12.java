@@ -31,7 +31,7 @@ public class Assignment12
 				System.out.println("A+");
 				break;
 			}
-			
+			/*
 			case 2:
 			{
 				System.out.println("A");
@@ -67,6 +67,24 @@ public class Assignment12
 				System.out.println("D+");
 				break;
 			}
+			
+			case 8:
+			{
+				System.out.println("D");
+				break;
+			}
+			
+			case 9:
+			{
+				System.out.println("F");
+				break;
+			}
+			*/
+			default:
+			{
+				System.out.println("Your Letter Grade is: "+ grade);
+			}
+		
 		}
 
 	}

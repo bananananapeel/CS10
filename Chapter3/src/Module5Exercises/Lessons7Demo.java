@@ -27,6 +27,7 @@ public class Lessons7Demo
 		switch(day)
 		{
 			case 1:
+			
 			{
 			System.out.println("Sunday");
 			break;
