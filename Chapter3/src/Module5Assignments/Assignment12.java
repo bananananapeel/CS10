@@ -19,74 +19,65 @@ public class Assignment12
 	public static void main(String[] args) 
 	{
 		Scanner input = new Scanner(System.in);
-		
-		System.out.println("Please enter your school  Grade: ");
-		
-		int grade = input.nextInt();
-		
-		switch(grade)
-		{
-			case 1:
-			{
-				System.out.println("A+");
-				break;
-			}
-			/*
-			case 2:
-			{
-				System.out.println("A");
-				break;
-			}
-			
-			case 3:
-			{
-				System.out.println("B+");
-				break;
-			}
-			
-			case 4:
-			{
-				System.out.println("B");
-				break;
-			}
-			
-			case 5:
-			{
-				System.out.println("C+");
-				break;
-			}
-			
-			case 6:
-			{
-				System.out.println("C");
-				break;
-			}
-			
-			case 7:
-			{
-				System.out.println("D+");
-				break;
-			}
-			
-			case 8:
-			{
-				System.out.println("D");
-				break;
-			}
-			
-			case 9:
-			{
-				System.out.println("F");
-				break;
-			}
-			*/
-			default:
-			{
-				System.out.println("Your Letter Grade is: "+ grade);
-			}
-		
-		}
-
-	}
-
+	       
+        System.out.println("Enter Your Grade Percentage: ");
+       
+        int grade = input.nextInt();
+       
+        if (grade >= 90)
+        {
+            System.out.println("A+");
+        }
+       
+        else if (grade >= 80)
+        {
+            System.out.println("A");
+        }
+       
+        else if (grade >= 75)
+        {
+            System.out.println("B+");
+        }
+       
+        else if (grade >= 70)
+        {
+            System.out.println("B");
+        }
+       
+        else if (grade >= 65)
+        {
+            System.out.println("C+");
+        }
+       
+        else if (grade >= 60)
+        {
+            System.out.println("C");
+        }
+       
+        else if (grade >= 55)
+        {
+            System.out.println("D+");
+        }
+       
+        else if (grade >= 50)
+        {
+            System.out.println("D");
+        }
+       
+        else if (grade < 50)
+        {
+            System.out.println("F");
+        }
+       
+        System.out.println("Your Corresponding Letter Grade is: "+ grade);
+     }
 }
+/*
+Screen Dump
+
+Enter Your Grade Percentage: 
+47
+F
+Your Corresponding Letter Grade is: 47
+
+*/
