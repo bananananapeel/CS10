@@ -70,9 +70,10 @@ public class Assignment13
 /*
  screen dump
  
- Enter the Number of Copies to be Printed: 
-450
+Enter the Number of Copies to be Printed: 
+456
 Price Per Copy is: $0.28
-Total Cost is: $126.00000000000001
+Total Cost is: $127.68
+
  
 */
