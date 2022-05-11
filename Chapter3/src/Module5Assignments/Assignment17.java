@@ -1,6 +1,6 @@
 /*
 
-	Program: ${Assignment16}.java          Date: ${May 10 2022}
+	Program: ${Assignment17}.java          Date: ${May 10 2022}
 
 
 	Author: Anjali Sanjay
@@ -21,66 +21,54 @@ public class Assignment17
 	{
 		Scanner input = new Scanner(System.in);
 		
-		DecimalFormat df = new DecimalFormat("0.00");
+		DecimalFormat df = new DecimalFormat("0.00");//allows decimals to the hundreths place be kept
 		
-		System.out.println("Please Enter your GPA: ");
-		double gpa = input.nextDouble();
+		System.out.println("Please Enter your GPA: ");//prompts user for their gpa
+		double gpa = input.nextDouble();//stores users gpa
 		
-		while(gpa == -1)
+		while(gpa == -1)//if user enters -1 they exit the game
 		{
 			System.out.println("You Have Exited the Game");
-			break;
+			gpa++;
 		}
 		
-		if(gpa >= 3.8)
+		if(gpa >= 3.8)//if gpa is above or equal to 3.8 they get displayed this
 		{
 			System.out.println("summa cum laude");
+			System.out.println("Would you like to continue or quit?");
 			
 		}
 		
-		else if(gpa > 3.65)
+		else if(gpa > 3.65)//if gpa is above to 3.65 they get displayed this
 		{
 			System.out.println("magna cum laude");
+			System.out.println("Would you like to continue or quit?");
 		}
 		
-		else if(gpa > 3.5)
+		else if(gpa > 3.5)//if gpa is above to 3.5 they get displayed this
 		{
 			System.out.println("cum laude");
+			System.out.println("Would you like to continue or quit?");
 		}
-		else
+		else if (gpa <= 3.5 && gpa > 0)//if gpa is less than 3.5 and more than 0 they get displayed this
 		{
 			System.out.println("Sorry, you did not qualify for an honors distinction");
+			System.out.println("Would you like to continue or quit?");
 		}
 		
-		System.out.println("Would you like to continue or quit?");
-		double gpa1 = input.nextDouble();
-		
-		while(gpa1 == -1)
-		{
-			System.out.println("You Have Exited the Game");
-		}
-		
-		if(gpa1 >= 3.8)
-		{
-			System.out.println("summa cum laude");
-			
-		}
-		
-		else if(gpa1 > 3.65)
-		{
-			System.out.println("magna cum laude");
-		}
-		
-		else if(gpa1 > 3.5)
-		{
-			System.out.println("cum laude");
-		}
-		else
-		{
-			System.out.println("Sorry, you did not qualify for an honors distinction");
-		}
-		
-		System.out.println("Thank you for using our program, have a great day!");
+		System.out.println("Thank you for using our program, have a great day!");//displays this
+	
 	}
 
 }
+/*
+screen dump
+
+Please Enter your GPA: 
+4.00
+summa cum laude
+Would you like to continue or quit?
+Thank you for using our program, have a great day!
+
+
+*/
