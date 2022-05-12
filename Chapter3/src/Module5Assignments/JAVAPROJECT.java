@@ -23,14 +23,14 @@ public class JAVAPROJECT
 		
 		DecimalFormat df = new DecimalFormat("0.00");
 		
-		System.out.println("Please Enter Your Name Fellow Thrill Seeker!");
-		String name = input.nextLine();
+		System.out.println("Please Enter Your Name Fellow Thrill Seeker!");//prompts user for name
+		String name = input.nextLine();//stores input
 		
 		System.out.println("Are You Tall Enough but not Too Tall to Ride the Kingda Ka, the Tallest Rollercoaster in the World?!\r\n"
-						 + "Enter Your Height Here in Centimeters to Find Out: ");
-		double h = input.nextDouble();
+						 + "Enter Your Height Here in Centimeters to Find Out: ");//prompts user for height
+		double h = input.nextDouble();//stores height
 		
-		if(h > 137.16 && h < 195.58)
+		if(h > 137.16 && h < 195.58)//if it is in requirements display this
 		{
 			System.out.print("CONGRATS!!! You are the Right Height to be able to ride the Kingda Ka!");
 		}

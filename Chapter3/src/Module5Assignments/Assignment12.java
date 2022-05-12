@@ -26,50 +26,49 @@ public class Assignment12
        
         if (grade >= 90)
         {
-            System.out.println("A+");//if grade is above or equal 90 they get displayed this
+            System.out.println("Your Corresponding Letter Grade is: A+");//if grade is above or equal 90 they get displayed this
         }
        
         else if (grade >= 80)
         {
-            System.out.println("A");//if grade is above or equal to 80 they get displayed this
+            System.out.println("Your Corresponding Letter Grade is: A");//if grade is above or equal to 80 they get displayed this
         }
        
         else if (grade >= 75)
         {
-            System.out.println("B+");//if grade is above or equal to 75 they get displayed this
+            System.out.println("Your Corresponding Letter Grade is: B+");//if grade is above or equal to 75 they get displayed this
         }
        
         else if (grade >= 70)
         {
-            System.out.println("B");//if grade is above or equal to 70 they get displayed this
+            System.out.println("Your Corresponding Letter Grade is: B");//if grade is above or equal to 70 they get displayed this
         }
        
         else if (grade >= 65)
         {
-            System.out.println("C+");//if grade is above or equal to 65 they get displayed this
+            System.out.println("Your Corresponding Letter Grade is: C+");//if grade is above or equal to 65 they get displayed this
         }
        
         else if (grade >= 60)
         {
-            System.out.println("C");//if grade is above or equal to 60 they get displayed this
+            System.out.println("Your Corresponding Letter Grade is: C");//if grade is above or equal to 60 they get displayed this
         }
        
         else if (grade >= 55)
         {
-            System.out.println("D+");//if grade is above or equal to 55 they get displayed this
+            System.out.println("Your Corresponding Letter Grade is: D+");//if grade is above or equal to 55 they get displayed this
         }
        
         else if (grade >= 50)
         {
-            System.out.println("D");//if grade is above or equal to 50 they get displayed this
+            System.out.println("Your Corresponding Letter Grade is: D");//if grade is above or equal to 50 they get displayed this
         }
        
         else if (grade < 50)
         {
-            System.out.println("F");//if grade is less than 50 they get displayed this
+            System.out.println("Your Corresponding Letter Grade is: F");//if grade is less than 50 they get displayed this
         }
        
-        System.out.println("Your Corresponding Letter Grade is: "+ grade);//displays the letter grade they got
      }
 }
 /*

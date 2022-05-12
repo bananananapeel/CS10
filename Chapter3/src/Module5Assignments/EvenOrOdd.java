@@ -18,7 +18,7 @@ public class EvenOrOdd
 	{
 		Scanner input = new Scanner(System.in); 
 		
-		System.out.print("Enter an Integer: ");//asks to enter question
+		System.out.println("Enter an Integer: ");//asks to enter question
 		int n1 = input.nextInt();//user inputs number
 		int rem = n1%2;
 		if(rem==1)//does math to see if number is even or odd
