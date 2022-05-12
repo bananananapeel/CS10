@@ -23,9 +23,12 @@ public class JAVAPROJECT
 		
 		DecimalFormat df = new DecimalFormat("0.00");
 		
-			System.out.println("Are You Tall Enough but not Too Tall to Ride the Kingda Ka, the Tallest Rollercoaster in the World?!\r\n"
-							 + "Enter Your Height Here in Centimeters to Find Out: ");
-			double h = input.nextDouble();
+		System.out.println("Please Enter Your Name Fellow Thrill Seeker!");
+		String name = input.nextLine();
+		
+		System.out.println("Are You Tall Enough but not Too Tall to Ride the Kingda Ka, the Tallest Rollercoaster in the World?!\r\n"
+						 + "Enter Your Height Here in Centimeters to Find Out: ");
+		double h = input.nextDouble();
 		
 		if(h > 137.16 && h < 195.58)
 		{
