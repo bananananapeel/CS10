@@ -23,7 +23,7 @@ public class Assignment16
 		System.out.println("Enter a number between 1 and 20: ");//user gets asked to input number
 		int pnum = input.nextInt();//answer gets recorded
 		
-		int comnum = (int) (Math.random()*20);//random number
+		int comnum = 1 + (int) (Math.random()*20);//random number
 		
 		if(comnum == pnum)//if players response is the same as the computers this gets displayed
 		{

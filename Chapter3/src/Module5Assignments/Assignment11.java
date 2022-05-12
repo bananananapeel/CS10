@@ -42,7 +42,7 @@ public class Assignment11
 		if(secondD>firstD && thirdD>secondD && firstD<thirdD)//579
 		{
 			max = thirdD;//max of 579
-			min = secondD;//min of 579
+			min = firstD;//min of 579
 		}
 		
 		else if(firstD>secondD && thirdD<secondD && firstD>thirdD)//931
