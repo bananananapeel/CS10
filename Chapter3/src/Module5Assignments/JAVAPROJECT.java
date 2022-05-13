@@ -26,7 +26,8 @@ public class JAVAPROJECT
 		System.out.println("Please Enter Your Name Fellow Thrill Seeker!");//prompts user for name
 		String name = input.nextLine();//stores input
 		
-		System.out.println("Are You Tall Enough but not Too Tall to Ride the Kingda Ka, the Tallest Rollercoaster in the World?!\r\n"
+		System.out.println("Welcome "+ name+ " to the Tallest Rollercoaster in the World!\r\n"
+						 + "Are You Tall Enough but not Too Tall to Ride the Kingda Ka?!\r\n"
 						 + "Enter Your Height Here in Centimeters to Find Out: ");//prompts user for height
 		double h = input.nextDouble();//stores height
 		
@@ -36,7 +37,7 @@ public class JAVAPROJECT
 		}
 		else
 		{
-			System.out.print("Sorry, You are not the Right Height to ride the Kingda Ka :(");
+			System.out.print("Sorry, You are not the Right Height to Ride the Kingda Ka :(");
 		}
 	}
 
@@ -44,7 +45,10 @@ public class JAVAPROJECT
 /*
 screen dump
 
-Are You Tall Enough but not Too Tall to Ride the Kingda Ka, the Tallest Rollercoaster in the World?!
+Please Enter Your Name Fellow Thrill Seeker!
+Anjali
+Welcome Anjali to the Tallest Rollercoaster in the World!
+Are You Tall Enough but not Too Tall to Ride the Kingda Ka?!
 Enter Your Height Here in Centimeters to Find Out: 
 170
 CONGRATS!!! You are the Right Height to be able to ride the Kingda Ka!
