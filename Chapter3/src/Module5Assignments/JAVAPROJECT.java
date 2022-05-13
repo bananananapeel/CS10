@@ -35,9 +35,13 @@ public class JAVAPROJECT
 		{
 			System.out.print("CONGRATS!!! You are the Right Height to be able to ride the Kingda Ka!");
 		}
-		else
+		else if(h> 195.58)//if it is above this number it displays this
 		{
-			System.out.print("Sorry, You are not the Right Height to Ride the Kingda Ka :(");
+			System.out.print("Sorry, You are too Tall to Ride the Kingda Ka :(");
+		}
+		else//if it is below the requirements it displays this
+		{
+			System.out.print("Sorry, You are too Short to Ride the Kingda Ka :(");
 		}
 	}
 
