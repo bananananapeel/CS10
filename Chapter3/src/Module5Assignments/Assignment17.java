@@ -71,8 +71,10 @@ screen dump
 Please Enter your GPA: 
 4.00
 summa cum laude
-Would you like to continue or quit?
+Please Enter Another GPA or Enter -1 to Exit the Game
+-1
 Thank you for using our program, have a great day!
+
 
 
 */
