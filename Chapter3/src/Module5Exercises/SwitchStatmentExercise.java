@@ -20,32 +20,32 @@ public class SwitchStatmentExercise
 	{
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Please enter a day of the week");
+		System.out.println("Please enter a day of the week");//prompts user for a day of the week 
 		
-		int day = input.nextInt();
+		int day = input.nextInt();//records answer
 		
 		switch(day)
 		{
-			case 1:
+			case 1://if user inputs 1 then this displays
 			System.out.println("Sunday");
 			break;
 			
-			case 2:
+			case 2://if user inputs 2 this displays
 			System.out.println("Monday");
 			break;
 			
 		}
 		
 		int dayy = 4;
-		switch(day)
+		switch(dayy)
 		{
-			case 1:
+			case 1://if user inputs 1 then this displays
 			System.out.println("Saturday");
 			break;
-			case 2:
+			case 2://if user inputs 2 this displays
 			System.out.println("Sunday");
 			break;
-			default:
+			default://this is if they didn't enter either number
 			System.out.println("Weekend");
 		}
 	}
