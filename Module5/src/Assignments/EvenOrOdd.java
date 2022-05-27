@@ -9,7 +9,7 @@
 	 
 
 */
-package Module5Assignments;
+package Assignments;
 import java.util.Scanner;
 public class EvenOrOdd 
 {
